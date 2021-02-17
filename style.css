@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main
+{
+   position: relative;
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   background:linear-gradient(#0e0244,#100ddd);
+   min-height: 100vh;
+}
+.contactForm
+{
+   position: absolute;
+   text-align: center;
+   display: grid;
+   width: 60vw;
+   height: 60vh;
+   padding: 2%;
+   left: 20vw;
+   background: #Fff;
+}
+label
+{
+   font-size: 2rem;
+}
+.lvl
+{
+   padding-top: 4%;
+
+}
+input
+{
+   text-align: left;
+   border-radius: 5px;
+   margin: 0 5%;
+   color: #0e0244;
+   font-size: 1.6rem;
+   letter-spacing: 1px;
+   font-family: 'Newsreader', serif;
+   padding: 4px;
+}
+textarea
+{
+   text-align: left;
+   padding: 3%;
+   font-size: 1.3rem;
+   font-family: 'Newsreader', serif;
+
+}
+.submit
+{
+   width: 20vw;
+   height: 4vh;
+   margin: 0 33%;
+   margin-top: 2vh;
+}
